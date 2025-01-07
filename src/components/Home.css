@@ -1,0 +1,16 @@
+.home {
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
