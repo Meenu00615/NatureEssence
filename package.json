@@ -1,31 +1,34 @@
 {
-  "name": "NatureEssence",
-  "version": "1.0.0",
+  "name": "natureessence",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "start": "vite preview",
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
-    "@babel/eslint-parser": "^7.22.5",
-    "@babel/plugin-transform-async-generator-functions": "^7.22.5",
-    "@babel/plugin-transform-class-properties": "^7.22.5",
-    "@babel/plugin-transform-json-strings": "^7.22.5",
-    "@babel/plugin-transform-nullish-coalescing-operator": "^7.22.5",
-    "@babel/plugin-transform-object-rest-spread": "^7.22.5",
-    "@babel/plugin-transform-optional-chaining": "^7.22.5",
-    "@babel/plugin-transform-unicode-property-regex": "^7.22.5",
-    "@mui/material": "^5.15.10",
-    "@next/font": "latest",
-    "@sideway/address": "^4.1.0",
-    "next": "^13.4.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "uuid": "^9.0.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-config-next": "^13.4.12"
-  }
-}
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "react-scripts": "^3.0.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.1.0"
+  }  
+}    
