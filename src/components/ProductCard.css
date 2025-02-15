@@ -1,0 +1,23 @@
+.product-card {
+  margin: 0; 
+  overflow: hidden; 
+  text-align: center; 
+  background-color: #fff; 
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
+
+.product-card h2,
+.product-card p {
+  display: none; 
+}
+
+.product-info {
+  padding: 8px 0; 
+}
+
+
