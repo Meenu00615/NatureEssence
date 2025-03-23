@@ -12,8 +12,6 @@ const images = [
   { src: '5.jpeg', title: 'Image 7', description: 'Description 7' },
   { src: '2 (3).jpg', title: 'Image 8', description: 'Description 8' },
   { src: '2 (4).jpg', title: 'Image 9', description: 'Description 9' },
-  { src: '2 (3).jpg', title: 'Image 10', description: 'Description 10' },
-  { src: '2 (4).jpg', title: 'Image 11', description: 'Description 11' },
   { src: '2 (5).jpg', title: 'Image 12', description: 'Description 12' },
   { src: '2 (6).jpg', title: 'Image 13', description: 'Description 13' },
   { src: '2 (7).jpg', title: 'Image 7', description: 'Description 14' },
